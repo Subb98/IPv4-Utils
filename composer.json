@@ -1,0 +1,58 @@
+{
+    "name": "subb98/ipv4-utils",
+    "description": "Library for calculating subnet masks in classful and CIDR addressing",
+    "type": "library",
+    "keywords": [
+        "ip",
+        "ipv4",
+        "network",
+        "subnet",
+        "mask",
+        "host",
+        "addressing",
+        "classful",
+        "cidr",
+        "calculator",
+        "helper",
+        "utility",
+        "utilities",
+        "utils"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav Subbotin",
+            "email": "subb98@gmail.com",
+            "role": "Owner"
+        }
+    ],
+    "homepage": "https://github.com/Subb98/ipv4-utils",
+    "support": {
+        "issues": "https://github.com/Subb98/ipv4-utils/issues"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Subb98\\IPv4Utils\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
