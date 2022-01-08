@@ -1,4 +1,6 @@
 # IPv4 Utils
+[![Build Status](https://api.travis-ci.com/Subb98/IPv4-Utils.svg?branch=master)](https://app.travis-ci.com/github/Subb98/IPv4-Utils)
+[![StyleCI](https://styleci.io/repos/445891024/shield)](https://styleci.io/repos/445891024)
 ## Description
 Library for calculating subnet masks in classful and CIDR addressing.
 ## Features
